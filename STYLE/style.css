@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.header {
+    text-decoration: none;
+    background-color: black;
+    margin: 0px 0px;
+    display: flex;
+    padding: 24px 061px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.header-cta {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    margin: 40px 30px -51px 30px;
+    justify-items: center;
+    row-gap: 25px;
+    background-color: black;
+}
+
+.grid-container .menu-item {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+}
+
+/* .grid-container .menu-item-1{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+    padding: 0px 91px;
+    
+}
+.grid-container .menu-item-2{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+    padding: 0px 88px;
+}
+
+.grid-container .menu-item-3{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+    padding: 0px 79px;
+}
+
+.grid-container .menu-item-4{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+    padding: 0px 71px;
+}
+
+.grid-container .menu-item-5{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Lucida Sans;
+        padding: 0px 83px;
+} */
+
+
+@media (max-width: 600px){  
+
+
+    .header {
+        text-decoration: none;
+        background-color: black;
+        margin: -23px 0px 9px 0px;
+        display: flex;
+        padding: 24px 15px 9px 15px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid antiquewhite;     
+    }
+
+
+    .grid-container {
+        display: grid;
+        margin: 21px 0px -59px 0px;
+    }
+
+    .grid-container .menu-item:nth-child(2) {
+        grid-column: 3/4;        
+        } 
+
+     .grid-container .menu-item:nth-child(3) {
+        grid-column: 5/6;
+        } 
+
+     .grid-container .menu-item:nth-child(4) {
+            grid-column: 2/3;
+            } 
+
+     .grid-container .menu-item:nth-child(5) {
+                grid-column: 4/5;
+                } 
+            
+}
+
+/* para recuperar el media query, quitar 1,2,3,4,5 de los menu-items
+y volver a activar .grid-container .menu-item */
+
+
+
+
+
+.logo-ig {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 27px -89px 6px 54px;
+}
+
+
+.row {
+    display: flex;
+    padding: 5px;
+    background-color: black;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.row img {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px
+}
+
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    
+}
