@@ -1,74 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anastasia Ferreiro</title>
+    <link rel="stylesheet" href="./STYLE/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+
 <body>
+
     <header>
-     
-        <div>
-            <a href="./sobre-mi.html">Sobre mí</a>
-        <div>  
-            
-        <div>
-            <a href="./index.html"><img src="./IMG/logo.png" alt=""></a>
-        </div>    
-          
-        <div>
-            <a href="./contacto.html">Contacto</a>
+
+        <div class="header superior">
+
+
+            <a class="header-cta" href="./sobre-mi.html">Sobre mí</a>
+
+
+
+            <a class="header-img" href="./index.html"><img src="./IMG/Captura de pantalla 2022-06-03 014415.png"
+                    alt=""></a>
+
+
+
+            <a class="header-cta" href="./contacto.html">Contacto</a>
+
+
         </div>
 
-        <div>        
-            <a href="./index.html">paisaje</a>
-            <a href="./eventos.html">eventos</a>
-            <a href="./naturaleza.html">naturaleza</a>
-            <a href="./arquitectura.html">arquitectura</a>
-            <a href="./producto.html">producto</a>
+        <div class="grid-container">
+
+
+            <a class="menu-item" href="./index.html">paisaje</a>
+            <a class="menu-item" href="./35mm.html">35mm</a>
+            <a class="menu-item" href="./naturaleza.html">naturaleza</a>
+            <a class="menu-item" href="./arquitectura.html">arquitectura</a>
+            <a class="menu-item" href="./producto.html">producto</a>
+
+
+
+
         </div>
 
-    </header> 
-    
-        <h1>¡Contactame!</h1>
-        <p>Te contestare tan rápido como pueda</p> <!--todo este texto es de ejemplo-->
-    
-        <form action="enviar.ph" method="get"></form>
-
-            <div>
-                <label for="Nombre">Nombre</label>
-                <input type="text" id="Nombre" placeholder="¿Cómo te llamás?" required>
-                
-            </div>
-            <div>
-                <label for="Correo electrónico">Correo electrónico</label>
-                <input type="text" id="Correo electrónico" placeholder="¿A dónde querés que te responda?" required>
-            </div>
-            <div>
-                <label for="Título">Título</label>
-                <input type="text" id="Título" placeholder="¿Sobre qué es tu mensaje?" required>
-            </div>
-            <div>
-                <label for="caja">Consulta</label>
-                <textarea name="caja" id="caja" cols="30" rows="10" placeholder="Ahora sí, ¡contame!" required></textarea>
-            </div>
 
 
 
+    </header>
+
+
+    <div class="container-fluid bg-black  mt-5 mb-5 p-5 px-5 mb-1 antiquewhite contact-font">
+    <form class="row g-3">
+    <div class="col-md-6" >
+        <label for="firstName" class="form-label bg-black">Nombre</label>
+        <input type="text" class="form-control bg-black" id="firstName" placeholder="name@example.com">
+    </div>
+    <div class="col-md-6 bg-black">
+            <label for="lastName" class="form-label bg-black">Apellido</label>
+            <input type="text" class="form-control bg-black" id="lastName" placeholder="name@example.com">
+    </div>
+    <div class="col-md-8 bg-black">
+        <label for="email" class="form-label bg-black">Correo Electrónico</label>
+        <input type="email" class="form-control bg-black" id="email" placeholder="nombre@ejemplo.com">
+    </div>
+    <div class="col-md-4 bg-black">
+        <label for="phoneNumber" class="form-label bg-black">Número de teléfono</label>
+        <input type="text" class="form-control bg-black" id="phoneNumber" placeholder="+34 666 666 666">
+    </div>
+    <div class="col-md-6 bg-black">
+        <label for="messageTitle" class="form-label bg-black">Título</label>
+        <input type="text" class="form-control bg-black" id="messageTitle" placeholder="¿Sobre qué es tu mensaje?">
+    </div>
+    <div class="col-md-12 bg-black">
+        <label for="messageBody" class="form-label bg-black">Mensaje</label>
+        <textarea class="form-control bg-black" id="messageBody" rows="4" placeholder="Ahora sí, ¡contame!"></textarea>
+    </div>
+    <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+    </form>
+    </div>
 
 
 
+    <!-- h1>¡Contactame!</h1>
+    <p>Te contestare tan rápido como pueda</p> -->
+    <!--todo este texto es de ejemplo-->
+
+    <!-- <form action="enviar.ph" method="get"></form>
+
+    <div>
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" placeholder="¿Cómo te llamás?" required>
+
+    </div>
+    <div>
+        <label for="Correo electrónico">Correo electrónico</label>
+        <input type="text" id="Correo electrónico" placeholder="¿A dónde querés que te responda?" required>
+    </div>
+    <div>
+        <label for="Título">Título</label>
+        <input type="text" id="Título" placeholder="¿Sobre qué es tu mensaje?" required>
+    </div>
+    <div>
+        <label for="caja">Consulta</label>
+        <textarea name="caja" id="caja" cols="30" rows="10" placeholder="Ahora sí, ¡contame!" required></textarea>
+    </div> -->
 
 
+    <footer class="footer">
 
-    <footer>
+        <a href="#"><img class="logo-ig" src="./IMG/logo-footer-ig.png" alt=""></a>
 
-            <a href="https://instagram.com" target="_blank"><img src="./IMG/insta.png" alt=""></a> 
-    
     </footer>
-                        
-   </header>
-   
+
+    </header>
+
 </body>
+
 </html>
