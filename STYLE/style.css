@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* background-color: black; */
+    background-color: black;
 }
  
 
@@ -13,6 +13,18 @@
     padding: 24px 061px;
     align-items: center;
     justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 1.25rem;  
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    
 }
 
 .header img {
@@ -55,6 +67,14 @@
 .navbar-dark {
     background-color: black;
     color: antiquewhite;
+}
+
+.dropdown .dropdown-menu {
+    background-color: gray;
+}
+
+.dropdown .dropdown-menu .dropdown-item{
+    background-color: gray;
 }
 
 .input-text {
@@ -196,5 +216,7 @@ y volver a activar .grid-container .menu-item */
     justify-content: center;
     color: white;
     margin-top: -54px;
+    margin-bottom: 0px;
     
 }
+
