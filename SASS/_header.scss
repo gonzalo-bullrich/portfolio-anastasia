@@ -1,0 +1,17 @@
+header {
+    background-color: black;
+    .title {
+        display: flex;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        font-family: 'Lucida Sans';
+        font-size: 1.25rem;  
+        justify-content: center;
+        padding: 20px 0px 0px 0px;        
+    }
+    .dropdown-menu {
+        background-color: gray;
+    }
+
+}
