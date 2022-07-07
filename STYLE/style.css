@@ -16,6 +16,7 @@
 }
 
 .title {
+    margin-bottom: -9px;
     display: flex;
     text-decoration: none;
     background-color: black;
@@ -23,7 +24,7 @@
     font-family: 'Lucida Sans';
     font-size: 1.25rem;  
     justify-content: center;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 10px 0px;
     
 }
 

@@ -1,16 +1,55 @@
 .row-1 {
     display: flex;
     padding: 5px;
-    background-color: black;
     margin-bottom: 46px;
-    .column {
+    background-color: black;
+}
+    /* .column {
       flex: 25%;
       padding: 5px;
       margin-top: 40px;
-      img {
+      para quitar mixin quitar esto y poner @column@ a las clases de columnas */
+/*       img {
         width: 100%;
         margin-top: 5px;
         margin-right: 0px
     }
-    }
+    } */
+  
+
+/* mixin */
+
+@mixin col  {
+  flex: 25%;
+  padding: 5px;
+  margin-top: 40px
 }
+
+.col--white {
+  @include col;
+  background-color: white
+}
+
+.col--gray {
+  @include col;
+  background-color: gray;
+}
+
+/* mixin */
+
+/* EXTEND */
+
+.item {
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 0px
+}
+
+.item-small {
+  @extend .item;
+  width: 90%
+}
+
+
+
+/* EXTEND */

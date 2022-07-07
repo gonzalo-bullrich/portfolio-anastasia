@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    text-decoration: none;
     .title {
         display: flex;
         text-decoration: none;
@@ -10,8 +10,27 @@ header {
         justify-content: center;
         padding: 20px 0px 0px 0px;        
     }
+
+
     .dropdown-menu {
-        background-color: gray;
+        text-decoration: none;
     }
 
 }
+
+
+/* MAPS */
+
+$bg-color: (
+  principal: black,
+  secundario: white, 
+);
+
+@each $nombre, $valor in $bg-color {
+    .bg-#{$nombre} {
+        background-color: $valor;
+    }
+}
+ 
+
+/* MAPS */
