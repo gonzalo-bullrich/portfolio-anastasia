@@ -411,7 +411,7 @@ y volver a activar .grid-container .menu-item */
     -moz-column-count:    3;
     -moz-column-gap:      0px;
     column-count:         3;
-    column-gap:           0px;  
+    column-gap:           25px;  
     margin: 20px 10px 70px 10px;
   }
   
@@ -420,6 +420,7 @@ y volver a activar .grid-container .menu-item */
     width: 100% !important;
     height: auto !important;
     padding: 4px;
+    padding-bottom: 24px;
   }
 
   @media (max-width: 800px) {
