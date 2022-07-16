@@ -6,53 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anastasia Ferreiro</title>
+    <link rel="stylesheet" href="STYLE/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-     
-        <div>
-            <a href="./sobre-mi.html">Sobre mí</a>
-        <div>  
-            
-        <div>
-            <a href="./index.html"><img src="./IMG/logo.png" alt=""></a>
-        </div>    
-          
-        <div>
-            <a href="./contacto.html">Contacto</a>
-        </div>
+  <div>
+    <a class="title" href="./index.html"> Anastasia Ferreiro </a>
+  </div>
+<nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./sobre-mi.html">Sobre mí</a>
+      <a class="navbar-brand" href="./contacto.html">Contacto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galerías
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./index.html">paisaje</a></li>
+              <li><a class="dropdown-item" href="./35mm.html">35 mm</a></li>                    
+              <li><a class="dropdown-item" href="./naturaleza.html">naturaleza</a></li>                                        
+            </ul>
+          </li>                 
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <div>        
-            <a href="./index.html">paisaje</a>
-            <a href="./eventos.html">eventos</a>
-            <a href="./naturaleza.html">naturaleza</a>
-            <a href="./arquitectura.html">arquitectura</a>
-            <a href="./producto.html">producto</a>
-        </div>
-                        
-   </header>
 
-    <h2>Formación</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia quia aspernatur suscipit est
-        accusamus blanditiis voluptatibus culpa autem recusandae id, modi possimus nisi dolor, maxime architecto unde
-        enim minus.
+    <div class="about-page">   
 
-    </p>
-    <h2>Experiencia</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia quia aspernatur suscipit est
-        accusamus blanditiis voluptatibus culpa autem recusandae id, modi possimus nisi dolor, maxime architecto unde
-        enim minus.
+      <div class="grid-item mob1
+">
 
-    </p>
+          <div class="about-title">Formación</div>
 
-    <footer>
+            <ul class="about-list">
+                <li>Posgrado en <strong>Retoque de Imagen Digital</strong> - IDEP (Barcelona)</li>
+                <li>Fotografía - Escuela Andy Goldstein (Buenos Aires)</li>
+                <li>Diseño gráfico - Universidad de Palermo (Buenos Aires)</li>
+             </ul>
 
-        <a href="https://instagram.com" target="_blank"><img src="./IMG/insta.png" alt=""></a> 
+          </div> 
 
-    </footer>
+     <div class="grid-item">
+
+          <div class="about-title">Experiencia</div>
+    
+            <ul class="about-list">
+                <li>Fotógrafa - Piña Colada</li>
+                <li>Fotografa y videografa - La Industria Films</li>
+                <li>Fotografa de bodas - CUIKA</li>
+            </ul>
+
+      </div> 
+
+    <div class="grid-item">
+
+    
+        <img class="about-img" src="./IMG/35mm/Chapadmalal03-.jpg" alt="">
+
+    </div>  
+
+    </div> 
+
+    <div class="sobre-mi-modulo">
+
+        <div class="about-title">Sobre mí</div>
+        <p class="about-text">
+          Hace diez años que me dedico a la fotografía, a la realización de videos y al diseño gráfico. 
+          La mayoría de mis trabajos son en eventos (bodas sobre todo).
+         En esta página comparto algunas imágenes que hice tanto por trabajo como por hobbie. 
+
+        </p>
+
+    </div>
+
+    <footer class="footer">
+
+      <a href="https://instagram.com/byanasti"><img class="logo-ig" src="./IMG/logo-footer-ig.png" alt=""></a>
+
+  </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

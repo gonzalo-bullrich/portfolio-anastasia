@@ -63,3 +63,18 @@ He generado las clases que puse arribe a través de extern,
   y las he aplicado a la segunda imagen de cada columna.
   Nuevamente, hice esto para utilizar la funcion, pero no aplicará. Simplemente
   no encontre ningún módulo de la página a la que le peuda aplicar esto realmente. 
+
+
+
+
+---- SEO -----
+
+Para Seo aplique, a la página de 35 mm:
+
+-> h1
+
+-> Keywords
+
+-> Description
+
+-> sitemap.xml
