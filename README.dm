@@ -1,5 +1,7 @@
 
 
-Hay dos galerías mas, pero aún no tengo las fotos, por lo que adapte el sitio para mostrar sólo tres galerias. 
+A través de este link se puede visualizar el sitio. 
 
-(INDEX)  --> https://gonzalo-bullrich.github.io/portfolio-anastasia/
+https://gonzalo-bullrich.github.io/portfolio-anastasia/
+
+

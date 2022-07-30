@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 
 <url>
@@ -37,16 +37,5 @@
   <lastmod>2022-07-02T13:33:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://gonzalo-bullrich.github.io/portfolio-anastasia/arquitectura.html</loc>
-  <lastmod>2022-07-02T13:33:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gonzalo-bullrich.github.io/portfolio-anastasia/producto.html</loc>
-  <lastmod>2022-07-02T13:33:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
 
 </urlset>
